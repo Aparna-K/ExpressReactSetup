@@ -93,9 +93,13 @@ app.use('/', express.static('public'));
 > [express.static(<dirname>)](https://expressjs.com/en/starter/static-files.html) is a ExpressJS middleware that allows us to serve up static files from the directory 
 > Express looks up the files relative to the static directory, so the name of the static directory is not part of the URL.
 
+We will create the `public` folder in the subsequent steps
+
 ###index.html
 
-Create a file **public/index.html**
+Create the `public` folder inside the `my-app` folder and create a file `public/index.html`
+
+Add the following to `index.html`
 
 ```vbscript-html
 <!DOCTYPE html>
@@ -121,7 +125,8 @@ npm install webpack babel-loader react react-dom --save
 
 ###React
 
-Create our React client file in **src/client.js**
+Create a folder `src` in `my-app` folder and create our React client file in `src/client.js`
+Add the following code to `src/client.js`
 
 ```javascript
 import React from 'react';
