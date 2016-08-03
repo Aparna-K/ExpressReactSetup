@@ -60,7 +60,7 @@ $ npm install babel-plugin-transform-class-properties babel-plugin-transform-run
 - **babel-register** allows you to use babel in nodejs
 - **babel-polyfill** emulates full ES6 environment (includes core.js)
 - **babel-preset-es2015**, **babel-preset-stage-0**, **babel-preset-react** are presets to enable most of the ES6 features as well as some needed for react, and jsx.
-- **babel-plugin-transform-runtime** allows using async/await operators (I’ll explain what are they for and how to use them later — we’ll use them a lot!)
+- **babel-plugin-transform-runtime** allows using async/await operators
 - **babel-plugin-transform-class-properties** is for using static variables inside ES6 classes 
 
 create a new file `.babelrc` and add the following code to it
